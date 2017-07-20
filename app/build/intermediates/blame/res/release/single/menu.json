@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/menu/main.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/menu/menu_scheduled_transport.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/menu/menu_scheduled_transport.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/menu/menu_menu.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/menu/menu_menu.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/menu/menu_solicitacao_detalhe.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/menu/menu_solicitacao_detalhe.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/menu/menu_scheduler_transport.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/menu/menu_scheduler_transport.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/menu/activity_main_drawer.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/menu/activity_main_drawer.xml"
+    }
+]

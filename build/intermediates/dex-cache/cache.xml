@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/pascke/Wasys/Projetos/GN/Android/Usuario/library/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ebb8ee188e8bf0531a282db516c2502759820e72">
+        <dex dex="/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/pre-dexed/release/classes_497ac6ea2e0d62120b13703a6b6beb92d2145e37.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="af9d955f3e8bbdc4b7e4cf7d5b748a7c080d40fe">
+        <dex dex="/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_434520da35be263667016bd565e36b6449ffe00f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_084e4eee1025f7732b039b6ed47a27ca18deb212/classes.dex" />
+    </item>
+
+</items>

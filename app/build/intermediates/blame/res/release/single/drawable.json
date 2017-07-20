@@ -1,0 +1,386 @@
+[
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/shape_green_pill.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/shape_green_pill.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/marker_dark_blue.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/marker_dark_blue.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/common_signin_btn_text_light.xml",
+        "source": "/Users/pascke/.android/build-cache/bcf642da45079b0d5fa9df03ec15bec0e01356e3/output/res/drawable/common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_notas_avaliacao.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_notas_avaliacao.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_localizacao_azul.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_localizacao_azul.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/selector_btn_green_pill.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/selector_btn_green_pill.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/estrela_nao_clicada.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/estrela_nao_clicada.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/selector_btn_green_square.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/selector_btn_green_square.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/tutorial4.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/tutorial4.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_horario_azul.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_horario_azul.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_btn_check_material.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_edit_text_material.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/common_signin_btn_icon_light.xml",
+        "source": "/Users/pascke/.android/build-cache/bcf642da45079b0d5fa9df03ec15bec0e01356e3/output/res/drawable/common_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/ic_launcher.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/edit_text_background_white.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/edit_text_background_white.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_calendario.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_calendario.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_cadeado_cinza.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_cadeado_cinza.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/marker_gold_final.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/marker_gold_final.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/selector_btn_agreement.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/selector_btn_agreement.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/tutorial2.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/tutorial2.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/first.jpeg",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/first.jpeg"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_distancia.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_distancia.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/side_nav_bar.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_unidade_empresa.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_unidade_empresa.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/bg_border_bottom_gray.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/bg_border_bottom_gray.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/border_gray.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/border_gray.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/mapa_confirmacao_transporte.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/mapa_confirmacao_transporte.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_calendario_azul.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_calendario_azul.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_mapa_origem_azul.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_mapa_origem_azul.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/selector_btn_green_text.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/selector_btn_green_text.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_destino_cinza.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_destino_cinza.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/second.jpeg",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/second.jpeg"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/ic_map.jpg",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/ic_map.jpg"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/tutorial1.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/tutorial1.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/user_photo.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/user_photo.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_calendario_origem_azul.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_calendario_origem_azul.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/shape_edittext_pill.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/shape_edittext_pill.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/bg_gray_border_bottom.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/bg_gray_border_bottom.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/vpi__tab_indicator.xml",
+        "source": "/Users/pascke/.android/build-cache/51882afb313af5171be46bd55324fea95c51d452/output/res/drawable/vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/design_fab_background.xml",
+        "source": "/Users/pascke/.android/build-cache/bac838948d87292bfe9096f50cd756aa11df0023/output/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/background_border_gray.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/background_border_gray.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/userpic.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/userpic.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/ic_logo.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/ic_logo.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_relogio_cinza.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_relogio_cinza.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_empresa.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_empresa.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_cinza_distancia.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_cinza_distancia.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/menu_translado.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/menu_translado.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_estrela.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_estrela.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_pessoa_cinza.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_pessoa_cinza.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_pessoa_azul.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_pessoa_azul.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/common_signin_btn_text_dark.xml",
+        "source": "/Users/pascke/.android/build-cache/bcf642da45079b0d5fa9df03ec15bec0e01356e3/output/res/drawable/common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/tab_color_selector.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/tab_color_selector.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_seiti.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_seiti.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/foto_carro.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/foto_carro.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/menu_meia_diaria.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/menu_meia_diaria.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/menu_pernoite.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/menu_pernoite.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/design_snackbar_background.xml",
+        "source": "/Users/pascke/.android/build-cache/bac838948d87292bfe9096f50cd756aa11df0023/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/common_signin_btn_icon_dark.xml",
+        "source": "/Users/pascke/.android/build-cache/bcf642da45079b0d5fa9df03ec15bec0e01356e3/output/res/drawable/common_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_confirmar.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_confirmar.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_calendario_cinza.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_calendario_cinza.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/mapa_foto.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/mapa_foto.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_meia_diaria_cinza.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_meia_diaria_cinza.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/foto_usuario_circular.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/foto_usuario_circular.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_meia_diaria.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_meia_diaria.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_origem_azul.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_origem_azul.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/tutorial3.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/tutorial3.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/edit_text_backgroundstyle.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/edit_text_backgroundstyle.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/estrela_clicada.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/estrela_clicada.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/shape_white_pill.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/shape_white_pill.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_origem_cinza.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_origem_cinza.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/icone_horario_origem_azul.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/icone_horario_origem_azul.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/shape_menu_image.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/shape_menu_image.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/menu_diaria.png",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/menu_diaria.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable/background_dark_blue_and_border_gray.xml",
+        "source": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/src/main/res/drawable/background_dark_blue_and_border_gray.xml"
+    }
+]

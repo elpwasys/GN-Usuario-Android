@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <br.com.wasys.gn.usuario.widgets.CustomTextView
+        android:id="@+id/textDialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Atenção!"
+        android:textColor="@color/azul_marinho_escuro"
+        android:background="@drawable/background_border_gray"
+        android:padding="20dp"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        app:custom_typeface="SourceSansPro-Regular.otf" />
+
+
+    <br.com.wasys.gn.usuario.widgets.CustomTextView
+        android:id="@+id/txt_mensagem_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="O valor de R$ 300,00 é estimado e pode ser necessária a inclusão de valores adicionais caso existam desvios de percurso, estacionamentos ou maior tempo do carro à disposição."
+        android:textColor="@color/gray_menu"
+        android:padding="10dp"
+        android:textSize="12dp"
+        android:layout_gravity="center"
+        app:custom_typeface="SourceSansPro-Regular.otf" />
+
+    <br.com.wasys.gn.usuario.widgets.CustomTextView
+        android:id="@+id/txt_mensagem_segunda_parte"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Mais informações sobre as possíveis alterações, podem ser consultadas na seção termos de uso."
+        android:textColor="@color/gray_menu"
+        android:padding="20dp"
+        android:textSize="12dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/background_border_gray"
+        android:layout_gravity="center"
+        app:custom_typeface="SourceSansPro-Regular.otf" />
+
+    <br.com.wasys.gn.usuario.widgets.CustomTextView
+        android:id="@+id/txt_confirmar_solicitacao"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Confirmar solicitação?"
+        android:textColor="@color/azul_marinho_escuro"
+        android:textSize="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        app:custom_typeface="SourceSansPro-Regular.otf" />
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="152dp"
+                android:textColor="@color/white"
+                android:background="@drawable/selector_btn_green_square"
+                android:text="Sim"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="152dp"
+                android:layout_toRightOf="@+id/btn_ok"
+
+                android:textColor="@color/white"
+                android:background="@drawable/selector_btn_green_square"
+                android:text="Não"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_termos_de_uso_scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_calcular_transporte"
+    android:layout_height="match_parent">
+
+    <br.com.wasys.gn.usuario.widgets.CustomTextView
+    android:id="@+id/txt_motorista"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Categoria"
+    android:textSize="20dp"
+    android:padding="10dp"
+    android:textColor="@color/colorPrimaryDark" />
+
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <!--<SeekBar-->
+        <!--android:id="@+id/seek_bar_tipo"-->
+
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:progressTint="@color/gold"-->
+    <!--android:thumbTint="@color/gold"-->
+    <!--android:max="100"-->
+    <!--android:progress="0"-->
+    <!--/>-->
+        <RadioGroup
+            android:id="@+id/rgopcoes"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+
+            android:layout_height="wrap_content" >
+            <RadioButton
+                android:id="@+id/checkbox_medio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/gold"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="#23333d"
+                android:checked="true"
+                android:text="@string/intermediario" />
+
+
+            <RadioButton
+                android:id="@+id/checkbox_executivo"
+                android:textColor="#23333d"
+                android:buttonTint="@color/gold"
+                android:textSize="16dp"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/executivo" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btn_historico_origem"
+        android:layout_width="80dp"
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/selector_btn_green_pill"
+        android:text="Histórico"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        android:textSize="12sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/txt_origem"
+        android:layout_below="@+id/btn_historico_origem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#23333d"
+        android:textColor="#23333d"
+        android:drawableLeft="@drawable/icone_origem_azul"
+        android:drawablePadding="5dp"
+        android:hint="Origem"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text_background_white"
+        />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="fill_parent"
+
+    android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txt_data_agendamento"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#23333d"
+            android:textColor="#23333d"
+            android:drawableLeft="@drawable/icone_calendario_origem_azul"
+            android:drawablePadding="5dp"
+            android:hint="Data"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_background_white"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="fill_parent"
+
+    android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txt_horario_agendamento"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#23333d"
+            android:textColor="#23333d"
+            android:drawableLeft="@drawable/icone_horario_origem_azul"
+            android:drawablePadding="5dp"
+            android:hint="Horário"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_background_white"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_historico_destino"
+            android:layout_width="80dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/selector_btn_green_pill"
+            android:text="Histórico"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/txt_destino"
+            android:layout_below="@+id/btn_historico_destino"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#23333d"
+            android:textColor="#23333d"
+            android:drawableLeft="@drawable/icone_mapa_origem_azul"
+            android:drawablePadding="5dp"
+            android:hint="Destino"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_background_white"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.SwitchCompat
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginEnd="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginStart="@dimen/activity_horizontal_margin"
+    android:id="@+id/switch_user_agreement"
+    android:textColor="@color/azul_marinho_escuro"
+    android:textSize="18dp"
+    android:theme="@style/switchStyle"
+    android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Retornar para a origem" />
+
+        <Button
+            android:id="@+id/btn_historico_retorno"
+            android:layout_width="80dp"
+            android:layout_height="15dp"
+            android:layout_below="@+id/switch_user_agreement"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/selector_btn_green_pill"
+            android:text="Histórico"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:visibility="gone"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/txt_retorno"
+            android:layout_below="@+id/btn_historico_retorno"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#23333d"
+            android:textColor="#23333d"
+            android:drawableLeft="@drawable/icone_mapa_origem_azul"
+            android:drawablePadding="5dp"
+            android:hint="Endereço de retorno"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_background_white"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/txt_observacao"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switch_user_agreement"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text_background_white"
+        android:drawablePadding="5dp"
+        android:hint="Observações"
+        android:padding="5dp"
+        android:textColor="#23333d"
+        android:textColorHint="#23333d"
+         />
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/selector_btn_green_pill"
+        android:text="Calcular"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+</LinearLayout>
+</ScrollView>

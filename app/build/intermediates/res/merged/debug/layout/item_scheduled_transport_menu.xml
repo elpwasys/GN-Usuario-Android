@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/layout_dados"
+        android:orientation="horizontal">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_dados"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="left"
+        android:background="#9923333d"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:id="@+id/layout_photo"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            >
+            <ImageView
+                android:id="@+id/user_photo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"/>
+            <ProgressBar
+                android:id="@+id/progress_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                style="?android:progressBarStyleSmall"/>
+        </FrameLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_toRightOf="@+id/layout_photo"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            >
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/id_corrida"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="66234"
+                android:textSize="18dp"
+                android:gravity="end"
+                android:textStyle="bold|italic"
+                android:textColor="@color/gold"
+                android:layout_marginBottom="10dp"
+                app:custom_typeface="SourceSansPro-Regular.otf" />
+
+
+            <RelativeLayout
+                android:layout_below="@+id/id_corrida"
+                android:id = "@+id/layout_horario_tipo_transporte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_horario_agendamento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amanhã às 10h"
+                android:textSize="22dp"
+                android:textColor="@color/white"
+                app:custom_typeface="SourceSansPro-Regular.otf" />
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/txt_tipo_transporte"
+                    android:layout_toRightOf="@+id/txt_horario_agendamento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1/2 diária"
+                    android:gravity="right"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    app:custom_typeface="SourceSansPro-Regular.otf" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id = "@+id/layout_carro_e_kilometragem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_horario_tipo_transporte"
+                >
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/txt_carro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sem carro"
+                    android:layout_marginRight="5dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    app:custom_typeface="SourceSansPro-Regular.otf" />
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/txt_tipo_carro"
+                    android:layout_toRightOf="@+id/txt_carro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" - Executivo"
+                    android:textSize="16dp"
+                    android:textColor="@color/gold"
+                    app:custom_typeface="SourceSansPro-Regular.otf" />
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/txt_distancia"
+                    android:layout_toRightOf="@+id/txt_tipo_carro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="300KM"
+                    android:textSize="16dp"
+                    android:gravity="right"
+                    android:textColor="@color/white"
+                    app:custom_typeface="SourceSansPro-Regular.otf" />
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

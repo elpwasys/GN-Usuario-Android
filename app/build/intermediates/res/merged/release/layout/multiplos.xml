@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul_marinho_escuro"
+    android:orientation="vertical">
+    <br.com.wasys.gn.usuario.widgets.CustomTextView
+        android:id="@+id/txt_motorista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categoria"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textColor="@color/white" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:id="@+id/rgopcoes"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content" >
+            <RadioButton
+                android:id="@+id/checkbox_medio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/gray_menu"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="@color/gray_menu"
+                android:checked="true"
+                android:text="@string/intermediario" />
+            <RadioButton
+                android:id="@+id/checkbox_executivo"
+                android:textColor="@color/gray_menu"
+                android:buttonTint="@color/gray_menu"
+                android:textSize="16dp"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/executivo" />
+        </RadioGroup>
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/list_trechos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+    <Button
+        android:id="@+id/btn_adicionar_trecho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ Adicionar Trecho"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/darker_gray"
+        android:textAllCaps="false"
+        android:textSize="16sp"/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+        <Button
+            android:id="@+id/btn_calcular"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:background="@drawable/selector_btn_green_pill"
+            android:text="Calcular"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+</LinearLayout>

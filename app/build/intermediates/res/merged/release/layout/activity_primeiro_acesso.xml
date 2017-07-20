@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.m5.usuario.br.m5.usuario.activities.PrimeiroAcessoActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/ic_logo"
+        android:scaleType="fitCenter" />
+
+    <Button
+        android:id="@+id/btn_primeiro_acesso"
+        android:gravity="center"
+        android:layout_below="@+id/image"
+        android:layout_margin="30dp"
+        android:layout_width="fill_parent"
+        android:background="@drawable/selector_btn_agreement"
+        android:text="Primeiro Acesso"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
+
+    <br.com.wasys.gn.usuario.widgets.CustomTextView
+        android:id="@+id/txt_invalid_message"
+        android:layout_width="fill_parent"
+        android:text="Ou"
+        android:layout_height="wrap_content"
+        app:custom_typeface="SourceSansPro-Bold.otf"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:layout_below="@+id/btn_primeiro_acesso"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_ja_sou_cadastrado"
+        android:gravity="center"
+        android:layout_below="@+id/txt_invalid_message"
+        android:layout_margin="30dp"
+        android:layout_width="fill_parent"
+        android:background="@drawable/selector_btn_agreement"
+        android:text="Já sou cadastrado"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

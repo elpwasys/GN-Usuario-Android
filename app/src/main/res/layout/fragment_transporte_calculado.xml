@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_termos_de_uso_scroll_view"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="vertical"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/layout_calcular_transporte"
+        android:layout_height="match_parent">
+
+
+
+        <RelativeLayout
+            android:id="@+id/google_maps_integration"
+            android:layout_below="@+id/header"
+            android:layout_width="fill_parent"
+            android:background="@color/white"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <br.com.wasys.gn.usuario.helpers.CustomMapView
+                android:layout_width="match_parent"
+                android:id = "@+id/mapa_google"
+                android:clickable="true"
+                android:layout_height="300dp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_border_gray"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_origem"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#23333d"
+                android:textColor="#23333d"
+                android:drawableLeft="@drawable/icone_origem_azul"
+                android:drawablePadding="5dp"
+                android:text="Carregando...."
+                android:paddingLeft="10dp"
+                android:background="@drawable/edit_text_background_white"
+                />
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_origem_bairro_cidade_estado"
+                android:layout_width="fill_parent"
+                android:layout_below="@+id/txt_origem"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/gray_menu"
+                android:textColor="@color/gray_menu"
+                android:paddingLeft="35dp"
+                android:textSize="12dp"
+                android:text="Consolação - São Paulo - SP"
+                android:visibility="invisible"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:background="@drawable/background_border_gray"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_data_agendamento"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#23333d"
+                android:textColor="#23333d"
+                android:paddingLeft="10dp"
+                android:drawableLeft="@drawable/icone_calendario_origem_azul"
+                android:drawablePadding="5dp"
+                android:text="Carregando...."
+
+                android:background="@drawable/edit_text_background_white"
+                />
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_horario_agendamento"
+                android:layout_width="fill_parent"
+                android:layout_below="@+id/txt_data_agendamento"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/gray_menu"
+                android:textColor="@color/gray_menu"
+                android:paddingLeft="35dp"
+                android:textSize="12dp"
+                android:text="Carregando...."
+                />
+
+        </RelativeLayout>
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:background="@drawable/background_border_gray"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/txt_horario_agendamento"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColorHint="#23333d"-->
+                <!--android:textColor="#23333d"-->
+                <!--android:drawableLeft="@drawable/icone_horario_origem_azul"-->
+                <!--android:drawablePadding="5dp"-->
+                <!--android:hint="Horário"-->
+                <!--android:padding="10dp"-->
+                <!--android:layout_margin="10dp"-->
+                <!--android:background="@drawable/edit_text_background_white"-->
+                <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:background="@drawable/background_border_gray"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_destino"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#23333d"
+                android:textColor="#23333d"
+                android:drawableLeft="@drawable/icone_mapa_origem_azul"
+                android:drawablePadding="5dp"
+                android:text="Carregando...."
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edit_text_background_white"
+                />
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_destino_bairro_cidade_estado"
+                android:layout_width="fill_parent"
+                android:layout_below="@+id/txt_destino"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/gray_menu"
+                android:textColor="@color/gray_menu"
+                android:paddingLeft="35dp"
+                android:textSize="12dp"
+                android:text="Consolação - São Paulo - SP"
+                android:visibility="invisible"
+                />
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:padding="15dp"
+            android:background="#f0f0f0"
+            android:layout_height="wrap_content">
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/lbl_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:paddingLeft="35dp"
+                android:textSize="20dp"
+                android:text="Total"
+                />
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/lbl_valor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/lbl_total"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/gold"
+                android:gravity="right"
+                android:textSize="20dp"
+                app:custom_typeface="SourceSansPro-Regular.otf"
+                android:text="Carregando..."
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_footer"
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:background="@drawable/background_border_gray"
+            android:padding="10dp"
+            android:layout_below="@+id/layout_duracao"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/icone_disponivel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/icone_relogio_cinza" />
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_disponivel"
+                android:layout_toRightOf="@+id/icone_disponivel"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_menu"
+                android:text="Carregando..."
+                android:layout_margin="5dp"
+                android:textSize="10dp" />
+
+            <ImageView
+                android:id="@+id/icone_tipo_diaria"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@+id/txt_disponivel"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/icone_meia_diaria_cinza" />
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_tipo_diaria"
+                android:layout_toRightOf="@+id/icone_tipo_diaria"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_menu"
+                android:text="Carregando..."
+                android:layout_margin="5dp"
+                android:textSize="10dp" />
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_categoria"
+                android:layout_toRightOf="@+id/icone_tipo_diaria"
+                android:layout_below="@+id/txt_tipo_diaria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_menu"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="Carregando..."
+                android:textSize="10dp" />
+
+            <ImageView
+                android:id="@+id/icone_distancia"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@+id/txt_tipo_diaria"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/icone_cinza_distancia" />
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_distancia"
+                android:layout_toRightOf="@+id/icone_distancia"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_menu"
+                android:text="Carregando..."
+                android:layout_margin="5dp"
+                android:textSize="10dp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:background="@drawable/background_border_gray"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+            android:id="@+id/txt_unidade"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#23333d"
+            android:textColor="#23333d"
+            android:text="Selecione uma empresa"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edit_text_background_white"
+            />
+
+            <Spinner
+                android:id="@+id/spinner_empresa"
+                android:layout_below="@+id/txt_unidade"
+                android:layout_width="fill_parent"
+                android:drawSelectorOnTop="true"
+
+                android:layout_height="wrap_content"></Spinner>
+
+            <!--<com.devconnit.templatesidemenu.widgets.CustomTextView-->
+                <!--android:id="@+id/txt_unidade"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColorHint="#23333d"-->
+                <!--android:textColor="#23333d"-->
+                <!--android:text="Itaú Unibanco SA"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:background="@drawable/edit_text_background_white"-->
+                <!--/>-->
+
+            <!--<com.devconnit.templatesidemenu.widgets.CustomTextView-->
+                <!--android:id="@+id/txt_unidade_cnpj"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_below="@+id/txt_unidade"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColorHint="@color/gray_menu"-->
+                <!--android:textColor="@color/gray_menu"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:textSize="12dp"-->
+                <!--android:text="60.701.190/0001-04"-->
+                <!--/>-->
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:background="@drawable/background_border_gray"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+            android:id="@+id/txt_seiti"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#23333d"
+            android:textColor="#23333d"
+            android:text="Selecione um centro de custo"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edit_text_background_white"
+            />
+
+            <Spinner
+                android:id="@+id/spinner_centro_de_custo"
+                android:layout_width="fill_parent"
+                android:layout_below="@+id/txt_seiti"
+                android:drawSelectorOnTop="true"
+                android:layout_height="wrap_content"></Spinner>
+
+            <!--<com.devconnit.templatesidemenu.widgets.CustomTextView-->
+                <!--android:id="@+id/txt_seiti"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColorHint="#23333d"-->
+                <!--android:textColor="#23333d"-->
+                <!--android:text="SEITI"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:background="@drawable/edit_text_background_white"-->
+                <!--/>-->
+
+            <!--<com.devconnit.templatesidemenu.widgets.CustomTextView-->
+                <!--android:id="@+id/txt_seiti_code"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_below="@+id/txt_seiti"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColorHint="@color/gray_menu"-->
+                <!--android:textColor="@color/gray_menu"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:textSize="12dp"-->
+                <!--android:text="0427342"-->
+                <!--/>-->
+        </RelativeLayout>
+
+
+
+        <Button
+            android:id="@+id/btn_solicitar_transporte"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/selector_btn_green_square"
+            android:text="Solicitar Transporte"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>

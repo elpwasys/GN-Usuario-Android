@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/pascke/.android/build-cache/04348bb723c907afa82804a17b8f9ec9d158e260/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

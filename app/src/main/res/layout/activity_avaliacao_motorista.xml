@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context="com.m5.usuario.br.m5.usuario.activities.DetalheAgendamentoActivity">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:background="#23333d"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_marginRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/icone_calendario" />
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_data_agendamento"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carregando..."
+                android:textSize="16dp"
+                android:gravity="center"
+                android:textColor="@color/gray_menu" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/google_maps_integration"
+            android:layout_below="@+id/header"
+            android:layout_width="fill_parent"
+            android:background="@color/white"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <com.google.android.gms.maps.MapView
+                android:id = "@+id/mapa_google_avaliacao_motorista"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+
+                />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/content"
+            android:layout_below="@+id/google_maps_integration"
+            android:layout_width="fill_parent"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/foto_motorista"
+                android:layout_marginRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:visibility="invisible"
+                android:src="@drawable/foto_usuario_circular" />
+
+            <RelativeLayout
+                android:id="@+id/layout_dados_motorista"
+                android:layout_toRightOf="@+id/foto_motorista"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true">
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/txt_motorista"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carregando..."
+                    android:textSize="18dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <ImageView
+                    android:id="@+id/icone_estrela"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@+id/txt_motorista"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:visibility="gone"
+                    android:src="@drawable/icone_estrela" />
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/txt_nota_motorista"
+                    android:layout_toRightOf="@+id/icone_estrela"
+                    android:layout_width="wrap_content"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"
+                    android:text="9,2"
+                    android:textSize="14dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/gold" />
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/txt_carro"
+                    android:layout_toRightOf="@+id/txt_nota_motorista"
+                    android:layout_width="fill_parent"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text="Carregando..."
+                    android:textSize="16dp"
+                    android:textColor="@color/colorPrimaryDark" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_dados_telefone_motorista"
+                android:layout_below="@+id/layout_dados_motorista"
+                android:layout_toRightOf="@+id/foto_motorista"
+                android:layout_marginLeft="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true">
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/txt_telefone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Carregando..."
+                    android:textSize="14dp"
+                    android:visibility="gone"
+                    android:textColor="@color/gray_menu" />
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/txt_tipo_transporte"
+                    android:layout_toRightOf="@+id/txt_telefone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Carregando..."
+                    android:textSize="14dp"
+                    android:gravity="right"
+                    android:textColor="@color/gray_menu" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/layout_motorista_detalhes"
+            android:layout_width="fill_parent"
+            android:layout_below="@+id/content"
+            android:background="@drawable/background_border_gray"
+            android:paddingBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/icone_diaria"
+                android:layout_toRightOf="@+id/txt_status_confirmado"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/icone_meia_diaria" />
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_meia_diaria"
+                android:layout_toRightOf="@+id/icone_diaria"
+                android:layout_marginTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_menu"
+                android:text="Carregando..."
+                android:layout_marginLeft="10dp"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:id="@+id/icone_distancia"
+                android:layout_toRightOf="@+id/txt_meia_diaria"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/icone_distancia" />
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_distancia"
+                android:layout_toRightOf="@+id/icone_distancia"
+                android:layout_marginTop="2dp"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_menu"
+                android:text="Carregando..."
+                android:textSize="14dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_codigo"
+            android:layout_width="fill_parent"
+            android:layout_below="@+id/layout_motorista_detalhes"
+            android:background="@drawable/background_border_gray"
+            android:paddingBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content">
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/lbl_codigo"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Código"
+                android:layout_marginLeft="20dp"
+                android:textSize="16dp" />
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_codigo"
+                android:layout_toRightOf="@+id/lbl_codigo"
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gold"
+                android:gravity="right"
+                android:text="Carregando..."
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_partida"
+            android:layout_width="fill_parent"
+            android:layout_below="@+id/layout_codigo"
+            android:background="@drawable/background_border_gray"
+            android:paddingBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content">
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/lbl_partida"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Partida"
+                android:layout_marginLeft="20dp"
+                android:textSize="16dp" />
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_partida"
+                android:layout_toRightOf="@+id/lbl_partida"
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_menu"
+                android:gravity="right"
+                android:text="Carregando..."
+                android:layout_marginLeft="20dp"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_chegada"
+            android:layout_width="fill_parent"
+            android:layout_below="@+id/layout_partida"
+            android:background="@drawable/background_border_gray"
+            android:paddingBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content">
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/lbl_chegada"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Chegada"
+                android:layout_marginLeft="20dp"
+                android:textSize="16dp" />
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_chegada"
+                android:layout_toRightOf="@+id/lbl_chegada"
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_menu"
+                android:gravity="right"
+                android:text="Carregando..."
+                android:layout_marginLeft="20dp"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/layout_duracao"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_below="@+id/layout_chegada"-->
+            <!--android:background="@drawable/background_border_gray"-->
+            <!--android:paddingBottom="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<com.devconnit.templatesidemenu.widgets.CustomTextView-->
+                <!--android:id="@+id/lbl_duracao"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:text="Duração"-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:textSize="16dp" />-->
+
+            <!--<com.devconnit.templatesidemenu.widgets.CustomTextView-->
+                <!--android:id="@+id/txt_duracao"-->
+                <!--android:layout_toRightOf="@+id/lbl_duracao"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColor="@color/gold"-->
+                <!--android:gravity="right"-->
+                <!--android:text="Carregando..."-->
+                <!--android:layout_marginLeft="20dp"-->
+                <!--android:textSize="16dp" />-->
+        <!--</RelativeLayout>-->
+
+        <RelativeLayout
+            android:id="@+id/layout_dados_completos_motorista"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#23333d"
+            android:layout_below="@+id/layout_chegada"
+            >
+
+            <LinearLayout
+                android:id="@+id/layout_sua_availacao"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content">
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/lbl_sua_avaliacao"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:paddingBottom="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Sua avaliação"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="16dp" />
+
+                <RatingBar
+                    android:id="@+id/ratingStars"
+                    android:layout_below="@+id/lbl_sua_avaliacao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/white"
+                    android:progressTint="@color/gold"
+                    android:progressBackgroundTint="@color/white"
+                    android:secondaryProgressTint="@color/gold"
+                    android:numStars="5"
+                    android:stepSize="1"
+                    />
+
+                <EditText
+                    android:id="@+id/txt_notas"
+                    android:layout_below="@+id/ratingStars"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#696d6f"
+                    android:textColor="#696d6f"
+                    android:drawableLeft="@drawable/icone_notas_avaliacao"
+                    android:drawablePadding="5dp"
+
+                    android:hint="Seu comentário não será compartilhado."
+                    android:padding="10dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edit_text_backgroundstyle"
+                    />
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_avaliacao_motorista_detalhes"
+                android:layout_width="fill_parent"
+                android:layout_below="@+id/layout_sua_availacao"
+                android:paddingBottom="10dp"
+                android:background="@drawable/background_dark_blue_and_border_gray"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content">
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/lbl_detalhes"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Detalhes"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="16dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_avaliacao_motorista_estimativa_inicial"
+                android:layout_width="fill_parent"
+                android:background="@drawable/background_dark_blue_and_border_gray"
+                android:paddingBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/layout_avaliacao_motorista_detalhes"
+                android:layout_height="wrap_content">
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/lbl_estimativa_inicial"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Estimativa Inicial"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="16dp" />
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/lbl_horas_a_disposicao"
+                    android:layout_below="@+id/lbl_estimativa_inicial"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray_menu"
+                    android:text="Horas a disposição"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="12dp" />
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/lbl_franquia"
+                    android:layout_below="@+id/lbl_horas_a_disposicao"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray_menu"
+                    android:text="200Km de franquia"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="12dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_avaliacao_motorista_kms_adicionais"
+                android:layout_width="fill_parent"
+                android:paddingBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/background_dark_blue_and_border_gray"
+                android:layout_below="@+id/layout_avaliacao_motorista_estimativa_inicial"
+                android:layout_height="wrap_content">
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/lbl_km_adicional"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Kms Adicionais"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="16dp" />
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/lbl_num_km_adicional"
+                    android:layout_below="@+id/lbl_km_adicional"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray_menu"
+                    android:text="Não se aplica"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="12dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_avaliacao_motorista_horas_adicionais"
+                android:layout_width="fill_parent"
+                android:paddingBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/background_dark_blue_and_border_gray"
+                android:layout_below="@+id/layout_avaliacao_motorista_kms_adicionais"
+                android:layout_height="wrap_content">
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/lbl_horas_adicionais"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Horas Adicionais"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="16dp" />
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/lbl_total_horas_adicionais"
+                    android:layout_below="@+id/lbl_horas_adicionais"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray_menu"
+                    android:text="Não se aplica"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="12dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_avaliacao_motorista_pedagios_nao_previstos"
+                android:layout_width="fill_parent"
+                android:paddingBottom="10dp"
+                android:background="@drawable/background_dark_blue_and_border_gray"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/layout_avaliacao_motorista_horas_adicionais"
+                android:layout_height="wrap_content">
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/lbl_pedagios_nao_previstos"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Pedágios não previstos"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="16dp" />
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/lbl_total_pedagios"
+                    android:layout_below="@+id/lbl_pedagios_nao_previstos"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray_menu"
+                    android:text="Não se aplica"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="12dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_avaliacao_motorista_estacionamentos"
+                android:layout_width="fill_parent"
+                android:paddingBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_below="@+id/layout_avaliacao_motorista_pedagios_nao_previstos"
+                android:layout_height="wrap_content">
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/lbl_estacionamentos"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="Estacionamentos"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="16dp" />
+
+                <br.com.wasys.gn.usuario.widgets.CustomTextView
+                    android:id="@+id/lbl_total_estacionamentos"
+                    android:layout_below="@+id/lbl_estacionamentos"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray_menu"
+                    android:text="Não se aplica"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_total_valor"
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/layout_dados_completos_motorista"
+            android:padding="15dp"
+            android:background="#f0f0f0"
+            android:layout_height="wrap_content">
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/lbl_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:paddingLeft="35dp"
+                android:textSize="20dp"
+                android:text="Total"
+                />
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/lbl_valor"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/lbl_total"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/gold"
+                android:gravity="right"
+                android:textSize="20dp"
+                app:custom_typeface="SourceSansPro-Regular.otf"
+                android:text="R$ Carregando..."
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_footer"
+
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:background="@drawable/background_border_gray"
+            android:padding="10dp"
+            android:layout_below="@+id/layout_total_valor"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/icone_empresa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/icone_unidade_empresa" />
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_empresa"
+                android:layout_toRightOf="@+id/icone_empresa"
+                android:layout_marginRight="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_menu"
+                android:text="Carregando..."
+                android:layout_margin="5dp"
+                android:textSize="10dp" />
+
+            <ImageView
+                android:id="@+id/icone_simei"
+                android:layout_toRightOf="@+id/txt_empresa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/icone_seiti" />
+
+            <br.com.wasys.gn.usuario.widgets.CustomTextView
+                android:id="@+id/txt_simei"
+                android:layout_toRightOf="@+id/icone_simei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_menu"
+                android:text="Carregando..."
+                android:layout_margin="5dp"
+                android:textSize="12dp" />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_enviar"
+            android:layout_below="@+id/layout_footer"
+            android:layout_width="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/selector_btn_green_square"
+            android:text="Enviar"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

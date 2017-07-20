@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_historico_origem"
+            android:layout_width="80dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/selector_btn_green_pill"
+            android:text="Histórico"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/txt_origem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#23333d"
+            android:textColor="#23333d"
+            android:drawableLeft="@drawable/icone_origem_azul"
+            android:drawablePadding="5dp"
+            android:hint="Origem"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_background_white"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txt_data_agendamento"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#23333d"
+            android:textColor="#23333d"
+            android:drawableLeft="@drawable/icone_calendario_origem_azul"
+            android:drawablePadding="5dp"
+            android:hint="Data"
+            android:padding="10dp"
+            android:focusable="false"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_background_white"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txt_horario_agendamento"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#23333d"
+            android:textColor="#23333d"
+            android:drawableLeft="@drawable/icone_horario_origem_azul"
+            android:drawablePadding="5dp"
+            android:hint="Horário"
+            android:padding="10dp"
+            android:focusable="false"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_background_white"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_historico_destino"
+            android:layout_width="80dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/selector_btn_green_pill"
+            android:text="Histórico"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/txt_destino"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#23333d"
+            android:textColor="#23333d"
+            android:drawableLeft="@drawable/icone_mapa_origem_azul"
+            android:drawablePadding="5dp"
+            android:hint="Destino"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edit_text_background_white"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.SwitchCompat
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:id="@+id/switch_pernoite"
+            android:textColor="@color/azul_marinho_escuro"
+            android:textSize="18dp"
+            android:theme="@style/switchStyle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Pernoite no destino" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_confirmar"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector_btn_green_pill"
+        android:text="Confirmar"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="50dp"
+        android:textSize="18sp"/>
+
+
+</LinearLayout>

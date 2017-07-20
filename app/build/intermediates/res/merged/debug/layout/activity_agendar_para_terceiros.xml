@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    tools:context=".activities.EsqueciMinhaSenhaActivity">
+
+    <br.com.wasys.gn.usuario.widgets.CustomTextView
+        android:id="@+id/lbl_titulo"
+        android:layout_width="fill_parent"
+        android:text="Solicitar transporte para"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        app:custom_typeface="SourceSansPro-Bold.otf"
+        android:textColor="@color/azul_marinho_escuro"
+        android:textSize="28sp"
+        />
+
+    <Button
+        android:id="@+id/btn_para_mim_mesmo"
+        android:layout_width="fill_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/selector_btn_agreement"
+        android:text="Para mim mesmo"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
+
+    <br.com.wasys.gn.usuario.widgets.CustomTextView
+        android:id="@+id/activity_termos_de_uso_txt_titulo"
+        android:layout_width="fill_parent"
+        android:text="Outra pessoa"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        app:custom_typeface="SourceSansPro-Bold.otf"
+        android:textColor="@color/azul_marinho_escuro"
+        android:textSize="28sp"
+        />
+
+    <Spinner
+        android:id="@+id/spinner_pessoas"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="20dp"
+        android:drawSelectorOnTop="true"
+
+        android:layout_height="wrap_content"></Spinner>
+
+    <Button
+        android:id="@+id/btn_aplicar"
+        android:layout_width="fill_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/selector_btn_agreement"
+        android:text="Aplicar"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

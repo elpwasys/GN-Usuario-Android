@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable-mdpi-v4/vpi__tab_selected_pressed_holo.9.png",
+        "source": "/Users/pascke/.android/build-cache/51882afb313af5171be46bd55324fea95c51d452/output/res/drawable-mdpi-v4/vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable-mdpi-v4/vpi__tab_unselected_pressed_holo.9.png",
+        "source": "/Users/pascke/.android/build-cache/51882afb313af5171be46bd55324fea95c51d452/output/res/drawable-mdpi-v4/vpi__tab_unselected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable-mdpi-v4/vpi__tab_selected_focused_holo.9.png",
+        "source": "/Users/pascke/.android/build-cache/51882afb313af5171be46bd55324fea95c51d452/output/res/drawable-mdpi-v4/vpi__tab_selected_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable-mdpi-v4/vpi__tab_unselected_holo.9.png",
+        "source": "/Users/pascke/.android/build-cache/51882afb313af5171be46bd55324fea95c51d452/output/res/drawable-mdpi-v4/vpi__tab_unselected_holo.9.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable-mdpi-v4/vpi__tab_unselected_focused_holo.9.png",
+        "source": "/Users/pascke/.android/build-cache/51882afb313af5171be46bd55324fea95c51d452/output/res/drawable-mdpi-v4/vpi__tab_unselected_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/pascke/Wasys/Projetos/GN/Android/Usuario/app/build/intermediates/res/merged/release/drawable-mdpi-v4/vpi__tab_selected_holo.9.png",
+        "source": "/Users/pascke/.android/build-cache/51882afb313af5171be46bd55324fea95c51d452/output/res/drawable-mdpi-v4/vpi__tab_selected_holo.9.png"
+    }
+]
